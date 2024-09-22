@@ -17,10 +17,10 @@ This project implements user authentication and file handling in an Express.js a
 
 ## Demo
 
-[Frontend Link](https://file-handling-plum.vercel.app/) 
-[Backend Link](https://file-handling-backend.vercel.app/) 
-[Frontend Repository Link](https://github.com/nks854338/fileHandling) 
-[Backend Repository Link](https://github.com/nks854338/fileHandlingBackend) 
+- [Frontend Link](https://file-handling-plum.vercel.app/) 
+- [Backend Link](https://file-handling-backend.vercel.app/) 
+- [Frontend Repository Link](https://github.com/nks854338/fileHandling) 
+- [Backend Repository Link](https://github.com/nks854338/fileHandlingBackend) 
 
 ## API Endpoints
 
