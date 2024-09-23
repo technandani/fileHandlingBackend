@@ -16,7 +16,7 @@ mongoose
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cors({
-  origin: 'https://file-handling-plum.vercel.app/', 
+  origin: 'https://file-handling-plum.vercel.app', 
   methods: 'GET, POST',
   credentials: true,
 }));
