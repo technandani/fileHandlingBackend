@@ -15,12 +15,12 @@ mongoose
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use(cors());
 app.use(cors({
-  origin: 'https://file-handling-plum.vercel.app', 
-  methods: 'GET,POST,PUT,DELETE',
+  origin: 'https://file-handling-plum.vercel.app/', 
+  methods: 'GET, POST',
   credentials: true,
 }));
+app.use(cors());
 app.use('/users', userRouter);  
 app.use('/files', fileRouter); 
 
