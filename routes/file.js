@@ -8,11 +8,11 @@ const router = express.Router();
 
 const dataFilePath = path.join(__dirname, '..', 'data.json');
 
-router.post('/save',authenticateToken, (req, res) => {
+router.post('/save',authenticateToken, async(req, res) => {
   const task = req.body;
   tasks.push({ ...task, QuoteId: tasks.length + 1 });
 
-  fs.writeFile(dataFilePath, JSON.stringify(tasks, null, 2), (error) => {
+  await fs.writeFile(dataFilePath, JSON.stringify(tasks, null, 2), (error) => {
     if (error) {
       return res.status(500).json({ message: 'Failed to save data', error });
     }
