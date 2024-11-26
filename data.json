@@ -30,15 +30,9 @@
     "category": "education"
   },
   {
-<<<<<<< HEAD
+    "QuoteId": 6,
     "quoteTitle": "The best way  to lose yourself in the service of others.",
-    "author": "Vivekananda",
-    "category": "IT & Programming",
-=======
-    "quoteTitle": "the light when the dawn is still dark.",
     "author": "Swami Vivekananda",
-    "category": "service",
->>>>>>> d98dbc4fdaecd9c6fb180b46901a78e2c275e86b
-    "QuoteId": 6
+    "category": "service"
   }
 ]
