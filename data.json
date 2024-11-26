@@ -30,27 +30,9 @@
     "category": "education"
   },
   {
-    "quoteTitle": "the light when the dawn is still dark.",
-    "author": "Swami Vivekananda",
-    "category": "service",
-    "QuoteId": 6
-  },
-  {
-    "quoteTitle": " until the goal is achieved.",
-    "author": "Rabindranath Tagore",
-    "category": "IT & Programming",
-    "QuoteId": 7
-  },
-  {
-    "quoteTitle": " until the goal is achieved.",
+    "quoteTitle": "The best way  to lose yourself in the service of others.",
     "author": "Vivekananda",
-    "category": "q",
-    "QuoteId": 8
-  },
-  {
-    "quoteTitle": "Arise, awake, and stop not until the goal is achieved.",
-    "author": "f",
-    "category": "n",
-    "QuoteId": 9
+    "category": "IT & Programming",
+    "QuoteId": 6
   }
 ]
